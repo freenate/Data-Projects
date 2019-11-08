@@ -1,3 +1,4 @@
+-- intended for MySQL
 (select
 case 
 when hour(date_time) in(7,8,9,10,11) then 'mornings'
