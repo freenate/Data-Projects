@@ -1,7 +1,7 @@
 -- intended for MySQL
 (select
 case 
-when hour(date_time) in(7,8,9,10,11) then 'mornings'
+when hour(date_time) in (7,8,9,10,11) then 'mornings'
 when hour(date_time) in (12,13,14,15,16) then 'afternoons'
 else 'evenings'
 end as time_period, 
