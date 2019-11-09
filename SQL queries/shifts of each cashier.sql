@@ -1,3 +1,4 @@
+-- intended for MySQL
 select cashier, dayname(date_worked) as weekday, time_period,
 count(date_worked) as number_of_shifts
 from 
