@@ -1,3 +1,4 @@
+-- for use in postgresql
 select  extract(year from order_date) as "year", extract(month from order_date) as "month", region, segment, category, subcategory, 
 round(sum(profit),2) as "total profit", round(sum(sales),0) as "total sales", sum(quantity) as "total quantity", 
 count(distinct orders.order_id) as "total orders",  
